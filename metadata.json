@@ -1,0 +1,6 @@
+{
+  "name": "ICT Quiz 2",
+  "description": "ICT Quiz 2 — Proctored 100-question objective assessment covering HTML & CSS, JavaScript, Networking, LaTeX, and OOP. Created by: Muhammad Sheeraz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

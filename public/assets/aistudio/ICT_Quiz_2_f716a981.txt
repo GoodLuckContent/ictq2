@@ -1,0 +1,1522 @@
+ICT QUIZ - LABS 06 TO 11
+Introduction to Information & Communication Technologies (CL-1000), FAST NUCES Karachi
+Topics: HTML & CSS, JavaScript, Networking, LaTeX, OOP (Part 1 & 2)
+
+======================================================================
+SECTION A: MULTIPLE CHOICE QUESTIONS (200)
+Choose the single best answer.
+======================================================================
+
+Q1. In the ATM example, what is printed if an incorrect PIN is entered?
+   A) Withdrawal successful!
+   B) Invalid PIN.
+   C) Insufficient balance.
+   D) Thank you for using the ATM.
+
+Q2. Which element is the root element of an HTML document?
+   A) <html>
+   B) <body>
+   C) <main>
+   D) <head>
+
+Q3. The <em> tag is used to:
+   A) Insert a line break
+   B) Embed a media file
+   C) Define an e-mail address
+   D) Show stress emphasis, usually rendered in italics
+
+Q4. Which website is suggested in the lab for generating LaTeX table code?
+   A) Wikipedia.org
+   B) Overleaf.com
+   C) GitHub.com
+   D) TablesGenerator.com
+
+Q5. Which CSS property sets the spacing between lines of text?
+   A) vertical-align
+   B) text-align
+   C) line-height
+   D) font-weight
+
+Q6. Which element defines the title of a book, journal or poem?
+   A) <q>
+   B) <dfn>
+   C) <cite>
+   D) <abbr>
+
+Q7. What does \graphicspath{ {images/} } tell LaTeX?
+   A) The images are kept in a folder named images
+   B) The images should be compressed
+   C) The images should be deleted
+   D) The images are stored on the internet
+
+Q8. What is the purpose of the <!DOCTYPE html> declaration?
+   A) It links an external CSS file
+   B) It marks the root element of the page
+   C) It tells the browser the page is written in HTML5 so it renders in standards mode
+   D) It defines the title shown on the browser tab
+
+Q9. What does the crawler of a search engine do?
+   A) Sorts search results by price
+   B) Encrypts user queries
+   C) Stores user passwords
+   D) Regularly scans websites for URLs, keywords and links to discover updates
+
+Q10. Which protocol is shown in the lab diagram for sending e-mail between mail servers?
+   A) POP3
+   B) SMTP
+   C) FTP
+   D) IMAP
+
+Q11. Roughly what range does a LAN cover, according to the lab?
+   A) Above 500 km
+   B) 5 km to 50 km
+   C) Up to 2 km
+   D) Above 50 km
+
+Q12. In the front-end trio, which technology is responsible for interactivity such as form validation and dynamic updates?
+   A) JavaScript
+   B) CSS
+   C) HTML
+   D) Prettier
+
+Q13. Which tag defines a header cell in an HTML table?
+   A) <th>
+   B) <thead>
+   C) <tr>
+   D) <td>
+
+Q14. Which of the following is NOT a way of adding CSS to an HTML file?
+   A) External
+   B) Compiled
+   C) Inline
+   D) Internal
+
+Q15. Member functions of a class:
+   A) Define the behaviours of its objects
+   B) Cannot access data members
+   C) Store the values of the attributes
+   D) Are always private
+
+Q16. In Class A, network 127 is reserved for:
+   A) Broadcasting to the Internet
+   B) Multicast
+   C) Research
+   D) Loopback and internal testing
+
+Q17. With class child1 : public Parent, a member y that was protected in Parent becomes:
+   A) Private in child1
+   B) Public in child1
+   C) Inaccessible in child1
+   D) Protected in child1
+
+Q18. In function greet(name) { return "Hello, " + name; }, what is name called?
+   A) A return value
+   B) A keyword
+   C) A parameter
+   D) An object
+
+Q19. In the Account class, getDetails() returns:
+   A) The private balance (a double)
+   B) The account holder's name
+   C) Nothing (void)
+   D) The account number
+
+Q20. In the Animal/Dog example, what is printed when animalPtr points to a Dog object and animalPtr->makeSound() is called?
+   A) The cat meows!
+   B) The dog barks!
+   C) This animal makes a generic sound.
+   D) Nothing is printed
+
+Q21. According to the lab, comments in code should mainly explain:
+   A) The names of the variables
+   B) What every line does
+   C) Why the code is written a certain way
+   D) Who wrote the file
+
+Q22. The first version of ECMAScript was released in which year?
+   A) 2015
+   B) 2009
+   C) 1995
+   D) 1997
+
+Q23. What does the descendant selector p a {} target?
+   A) Every <p> that comes right after an <a>
+   B) Any <a> inside a <p>, even if other elements sit in between
+   C) Only <a> elements that are direct children of <p>
+   D) All <p> elements with the class "a"
+
+Q24. The text written inside the <title> element appears:
+   A) At the bottom of the page
+   B) Inside the first paragraph
+   C) On the browser's title bar or tab
+   D) As the main heading on the page
+
+Q25. Which VS Code setting makes code format automatically when you press Ctrl + S?
+   A) Word Wrap
+   B) Format On Save
+   C) Live Preview
+   D) Auto Reload
+
+Q26. Which element groups several labels and inputs in a form and can be captioned with <legend>?
+   A) <select>
+   B) <optgroup>
+   C) <fieldset>
+   D) <datalist>
+
+Q27. What does the CSS declaration float: left; do to an image?
+   A) Places it on the left side and lets text wrap around it
+   B) Centres it vertically in the page
+   C) Rounds its corners
+   D) Hides it from the page
+
+Q28. Which tag hides a block of code when the page loads?
+   A) <summary>
+   B) <aside>
+   C) <details>
+   D) <template>
+
+Q29. Where can you see the output of console.log("Hello World") when the page runs in a browser?
+   A) In the browser's title bar
+   B) On the page as an <h1> heading
+   C) In the Explorer pane of VS Code
+   D) In the Console tab of the browser's developer tools
+
+Q30. The ability of a single entity to take on multiple forms is called:
+   A) Abstraction
+   B) Compilation
+   C) Polymorphism
+   D) Encapsulation
+
+Q31. What is the range of Class A IP addresses?
+   A) 128-191
+   B) 1-127
+   C) 224-239
+   D) 192-223
+
+Q32. What does <meta charset="UTF-8"> do?
+   A) Links an external script
+   B) Sets the character encoding so text from many languages displays correctly
+   C) Sets the page title
+   D) Makes the page responsive
+
+Q33. Which of the following is a function unique to the Bus class in the inheritance example?
+   A) busSpecificFunction()
+   B) applyBrakes()
+   C) capacity()
+   D) fuelAmount()
+
+Q34. In <img src="images/user.jpg" alt="An image of the user" />, what does the src attribute specify?
+   A) The path to the image file
+   B) The text shown if the image fails to load
+   C) The width of the image
+   D) The border radius of the image
+
+Q35. A "leaky" vulnerability results in loss of:
+   A) Availability
+   B) Integrity
+   C) Bandwidth
+   D) Confidentiality
+
+Q36. Which attribute of the anchor tag <a> holds the URL of the destination?
+   A) src
+   B) rel
+   C) href
+   D) alt
+
+Q37. What are the two primary attributes of encapsulation, according to the lab?
+   A) Data protection and information hiding
+   B) Inheritance and polymorphism
+   C) Overloading and overriding
+   D) Compilation and linking
+
+Q38. In the OOP version of the BMI program, height in inches is converted to metres by multiplying by:
+   A) 0.254
+   B) 2.54
+   C) 0.0254
+   D) 12
+
+Q39. Which of the following is a reason for IT security mentioned in the lab?
+   A) Preventing disruption of services such as denial-of-service attacks
+   B) Increasing monitor brightness
+   C) Reducing CPU clock speed
+   D) Making files larger
+
+Q40. Data members of a class are:
+   A) The functions that manipulate data
+   B) The variables that store the attributes (state) of an object
+   C) The header files included
+   D) The compiler directives
+
+Q41. Which interface of the PC is selected when connecting the cable in Packet Tracer?
+   A) Bluetooth0
+   B) Console0
+   C) FastEthernet0
+   D) Serial0
+
+Q42. Which CSS property, with a value such as 50px on a 100px-wide image, gives the image a circular appearance?
+   A) vertical-align
+   B) border-radius
+   C) line-height
+   D) margin-right
+
+Q43. What is the purpose of the Code Runner extension in VS Code?
+   A) To format code on save
+   B) To install Node.js automatically
+   C) To open a live preview in the browser
+   D) To run code in many programming languages directly from the editor
+
+Q44. How many objects can be created from a single class description?
+   A) Only two
+   B) Only one
+   C) None until it is inherited
+   D) As many as needed
+
+Q45. Who created Node.js in 2009 by embedding Chrome's open-source JavaScript engine in a C++ program?
+   A) Ryan Dahl
+   B) Tim Berners-Lee
+   C) Linus Torvalds
+   D) Brendan Eich
+
+Q46. Which keyboard shortcut opens the Explorer pane in VS Code?
+   A) Ctrl + Shift + P
+   B) Ctrl + Shift + S
+   C) Ctrl + Alt + X
+   D) Ctrl + Shift + E
+
+Q47. Which cable is picked to connect the two PCs directly in the Packet Tracer lab?
+   A) Console cable
+   B) Fibre-optic cable
+   C) Coaxial cable
+   D) Copper Cross-over cable
+
+Q48. The Symbol primitive type is mainly used to create:
+   A) Very large integers
+   B) Floating-point numbers
+   C) Unique and immutable values, often used as object property keys
+   D) Text templates
+
+Q49. What does [width=\textwidth] do when used with \includegraphics?
+   A) Scales the image to the width of the text area
+   B) Rotates the image
+   C) Adds a border to the image
+   D) Sets the image height only
+
+Q50. Which of the following are examples of protocols mentioned in the lab?
+   A) LAN, MAN and WAN
+   B) CPU, RAM and ROM
+   C) IP, TCP and HTTP
+   D) HTML, CSS and JS
+
+Q51. Why can a function be assigned to a variable (let sayHello = greet;) in JavaScript?
+   A) Because functions are primitives
+   B) Because functions are objects
+   C) Because variables are constants
+   D) Because greet is a keyword
+
+Q52. According to the lab, JavaScript statements should end with:
+   A) A semicolon
+   B) A colon
+   C) A comma
+   D) A period
+
+Q53. In the ATM class, why can main() NOT directly access accountBalance?
+   A) Because it is a private member
+   B) Because it is a static member
+   C) Because it is a function
+   D) Because it is declared inside main
+
+Q54. How is the upper-case Greek letter Omega written?
+   A) \OMEGA
+   B) \Ohm
+   C) \omega
+   D) \Omega
+
+Q55. Which VS Code extension is used to automatically format code and keep a consistent style?
+   A) Node Manager
+   B) Live Server
+   C) Prettier
+   D) Code Runner
+
+Q56. What problem does inheritance solve in the Vehicle (Bus, Car, Truck) example?
+   A) Duplication of shared code
+   B) Slow compilation
+   C) Missing header files
+   D) Memory leaks
+
+Q57. Which example is used in the lab to explain encapsulation?
+   A) A pocket calculator
+   B) A traffic signal
+   C) An ATM machine
+   D) A vehicle fleet
+
+Q58. The Document Object Model (DOM) represents a web page as a:
+   A) Flat table of rows and columns
+   B) Tree-like model of objects (nodes)
+   C) Stack of JavaScript functions
+   D) Sequence of CSS rules
+
+Q59. Which loop repeats the ATM menu until the user chooses exit?
+   A) for loop
+   B) if-else only
+   C) Recursion only
+   D) do-while loop (while choice != 3)
+
+Q60. Which of the following are reference (non-primitive) data types in JavaScript?
+   A) BigInt only
+   B) null, undefined and symbols
+   C) Objects, arrays and functions
+   D) Strings, numbers and booleans
+
+Q61. In the CIA triad, which term means systems and data are accessible when needed, even during power outages or natural disasters?
+   A) Authenticity
+   B) Confidentiality
+   C) Integrity
+   D) Availability
+
+Q62. In C++, a class is best described as:
+   A) A programmer-defined data type with data members and member functions
+   B) A function that returns objects
+   C) A header file
+   D) A built-in numeric type
+
+Q63. Which command produces italic text?
+   A) \textbf{...}
+   B) \bf{...}
+   C) \underline{...}
+   D) \textit{...}
+
+Q64. Which JavaScript engine is used inside Mozilla Firefox?
+   A) V8
+   B) SpiderMonkey
+   C) Rhino
+   D) Hermes
+
+Q65. Which ATM method displays the current balance after validating the PIN?
+   A) withdrawMoney
+   B) validatePIN
+   C) checkBalance
+   D) ATM
+
+Q66. The values that the attributes of an object take at a given time form the object's:
+   A) Destructor
+   B) Class name
+   C) State
+   D) Header
+
+Q67. In VS Code, typing the exclamation mark (!) in an empty .html file and pressing Tab will:
+   A) Comment out the current line
+   B) Insert the basic HTML boilerplate code
+   C) Open the Extensions Marketplace
+   D) Format the document on save
+
+Q68. Which command creates a label that can be used for cross-referencing?
+   A) \label{...}
+   B) \ref{...}
+   C) \caption{...}
+   D) \tag{...}
+
+Q69. How do you reference a separate JavaScript file named index.js from an HTML file?
+   A) <script src="index.js"></script>
+   B) <import src="index.js">
+   C) <link href="index.js">
+   D) <js file="index.js"></js>
+
+Q70. Which command inserts a horizontal line in a table?
+   A) \hr
+   B) \hline
+   C) \line
+   D) \border
+
+Q71. Which command sets the caption of a figure?
+   A) \ref{...}
+   B) \label{...}
+   C) \caption{...}
+   D) \title{...}
+
+Q72. What is the leading bit pattern of a Class A address?
+   A) 0
+   B) 10
+   C) 1110
+   D) 110
+
+Q73. In IT security, a "threat" represents:
+   A) A hardware fault only
+   B) A potential security harm to an asset
+   C) A strong password
+   D) A firewall rule
+
+Q74. Before ES6, what was the only way to declare variables in JavaScript?
+   A) int
+   B) const
+   C) let
+   D) var
+
+Q75. How is a subscript written in LaTeX math mode?
+   A) a/b
+   B) a_b
+   C) a^b
+   D) a*b
+
+Q76. What is the most common example of a WAN?
+   A) A single-building network
+   B) A school lab network
+   C) A home network
+   D) The Internet
+
+Q77. Which CSS rule removes the underline from links?
+   A) a { text-transform: none; }
+   B) a { font-style: normal; }
+   C) a { vertical-align: baseline; }
+   D) a { text-decoration: none; }
+
+Q78. What does the search algorithm do?
+   A) Searches the index and finds the most suitable pages by matching keywords
+   B) Blocks websites
+   C) Downloads images
+   D) Creates new web pages
+
+Q79. In \begin{tabular}{ c c c }, what does c mean?
+   A) The column is closed
+   B) The column is coloured
+   C) The column is counted
+   D) Text is centred in that column
+
+Q80. What does a router do?
+   A) Forwards data between different networks
+   B) Stores web pages
+   C) Formats hard disks
+   D) Converts audio into text
+
+Q81. Which of the following is a search engine rather than a web browser?
+   A) Bing
+   B) Chrome
+   C) Opera
+   D) Firefox
+
+Q82. What happens to a variable that is assigned a value without using let, var or const?
+   A) It becomes a constant
+   B) It becomes an implicit global variable
+   C) It is block-scoped
+   D) It causes a SyntaxError
+
+Q83. Which primitive data type holds only the values true or false?
+   A) Number
+   B) String
+   C) Symbol
+   D) Boolean
+
+Q84. According to the lab, which declaration should you use by default when the value will not change?
+   A) const
+   B) let
+   C) var
+   D) function
+
+Q85. A WAN covers a range of:
+   A) Above 50 km
+   B) Up to 500 m
+   C) Up to 2 km
+   D) 5 km to 50 km
+
+Q86. Everything in the .tex file before \begin{document} is called the:
+   A) Header file
+   B) Abstract
+   C) Preamble
+   D) Body
+
+Q87. A web browser is an example of:
+   A) System hardware
+   B) Application software used to retrieve and view web pages
+   C) A network cable
+   D) A search algorithm
+
+Q88. Which JavaScript engine is used inside the Google Chrome browser?
+   A) SpiderMonkey
+   B) Chakra
+   C) V8
+   D) Nitro
+
+Q89. Which of the following cannot be used as a variable name?
+   A) if
+   B) _if
+   C) total
+   D) price
+
+Q90. What does calc.add(1, 2, 3) print in the Calculator example?
+   A) 7
+   B) 3
+   C) 6
+   D) 123
+
+Q91. Which private address range belongs to Class A?
+   A) 10.0.0.0 to 10.255.255.255
+   B) 192.168.0.0 to 192.168.255.255
+   C) 127.0.0.0 to 127.255.255.255
+   D) 172.16.0.0 to 172.31.255.255
+
+Q92. Which declaration keyword allows re-declaring the same variable name in the same scope?
+   A) let and const
+   B) let
+   C) var
+   D) const
+
+Q93. Connections between nodes in a computer network are established using:
+   A) Cable media or wireless media
+   B) Only satellite links
+   C) Only fibre-optic cable
+   D) Only Wi-Fi
+
+Q94. In a UML class diagram, what do the symbols "-" and "+" before a member usually denote?
+   A) "-" private and "+" public
+   B) "-" static and "+" dynamic
+   C) "-" public and "+" private
+   D) "-" input and "+" output
+
+Q95. Visual Studio Code is a source-code editor developed by which company?
+   A) Google
+   B) Microsoft
+   C) Oracle
+   D) Mozilla
+
+Q96. Which of the three core front-end technologies defines the structure and content of a web page?
+   A) Node.js
+   B) JavaScript
+   C) CSS
+   D) HTML
+
+Q97. In a description list, which tag defines the name or term?
+   A) <dl>
+   B) <dt>
+   C) <dd>
+   D) <li>
+
+Q98. Which element is used to embed another web page inside the current page?
+   A) <canvas>
+   B) <template>
+   C) <picture>
+   D) <iframe>
+
+Q99. Which header file is included in the examples for cin and cout?
+   A) stdio.h
+   B) iostream
+   C) string.h
+   D) fstream
+
+Q100. Which keyword declares a block-scoped variable that was introduced in ES6 and can be reassigned but not re-declared in the same scope?
+   A) const
+   B) static
+   C) let
+   D) var
+
+Q101. Which delimiter pair is used to write equations in display mode?
+   A) % ... %
+   B) $ ... $
+   C) \[ ... \]
+   D) # ... #
+
+Q102. Overleaf is:
+   A) A desktop spreadsheet program
+   B) A JavaScript runtime
+   C) A network simulation tool
+   D) A collaborative cloud-based LaTeX editor
+
+Q103. Which environment is used (instead of figure) to caption and reference a table?
+   A) tabular
+   B) label
+   C) table
+   D) caption
+
+Q104. In the Student class example, what does getRollNo() do?
+   A) Sets the value of rollNo
+   B) Returns the value of the private data member rollNo
+   C) Deletes the object
+   D) Declares rollNo
+
+Q105. What is a computer network?
+   A) A telecommunications network that allows nodes to share resources and exchange data
+   B) A single computer running many programs
+   C) A software used only for browsing
+   D) A group of unconnected devices
+
+Q106. Abstraction focuses on:
+   A) Combining data and methods
+   B) Deriving new classes
+   C) Presenting only the essential details while hiding the underlying complexity
+   D) Creating many forms of a function
+
+Q107. Given let mixedArray = [1, "hello", true, {key: "value"}]; what does console.log(mixedArray[3]) print?
+   A) { key: 'value' }
+   B) undefined
+   C) hello
+   D) true
+
+Q108. Which text-transform value makes the first letter of every word uppercase?
+   A) capitalize
+   B) lowercase
+   C) inherit
+   D) uppercase
+
+Q109. Which two technologies are important in a LAN?
+   A) FDDI and ATM
+   B) Ethernet and Wi-Fi
+   C) CDDI and Bluetooth
+   D) Leased line and dial-up
+
+Q110. Where should the <script> tag generally be placed in an HTML document, according to best practice?
+   A) Inside the <title> element
+   B) Inside the <head> only, always
+   C) At the very top, before <!DOCTYPE html>
+   D) At the end of the <body> section
+
+Q111. In a JavaScript function, the return statement is:
+   A) Used to create a loop
+   B) Optional, and is used to send a value back to the caller
+   C) Used to declare parameters
+   D) Mandatory in every function
+
+Q112. Which tag is used to highlight specific text on a page?
+   A) <ins>
+   B) <dfn>
+   C) <mark>
+   D) <del>
+
+Q113. In JavaScript, an object is a collection of:
+   A) Boolean flags
+   B) Ordered numbers only
+   C) Only functions
+   D) Key-value pairs
+
+Q114. In the Account example, which member is private?
+   A) accountNumber
+   B) balance
+   C) name
+   D) main
+
+Q115. What is the purpose of \usepackage{graphicx}?
+   A) It adds a table of contents
+   B) It allows images to be included in the document
+   C) It sets the paper size
+   D) It creates tables
+
+Q116. What is the range of a MAN, according to the lab?
+   A) Up to 2 km
+   B) Above 50 km
+   C) 5 km to 50 km
+   D) Up to 100 m
+
+Q117. What happens when you try to reassign a variable declared with const?
+   A) The variable becomes undefined
+   B) TypeError: Assignment to constant variable
+   C) SyntaxError: unexpected token
+   D) The new value is ignored silently
+
+Q118. In the Account example's main(), the name can be read directly into currentAccount.name because:
+   A) name is a public data member
+   B) name is a private data member
+   C) getline cannot use private data
+   D) main is a member function
+
+Q119. In the procedural BMI program, the formula w/(h*h)*703 is used because weight and height are in:
+   A) Kilograms and metres
+   B) Pounds and feet
+   C) Pounds and inches
+   D) Kilograms and centimetres
+
+Q120. Which <img> attribute provides alternative text that screen readers can read aloud?
+   A) alt
+   B) src
+   C) href
+   D) width
+
+Q121. WYSIWYM, the idea behind LaTeX, stands for:
+   A) What you see is where you move
+   B) What you see is what you make
+   C) What you see is what you mean
+   D) Write your style in Word, yield more
+
+Q122. Which keyword is used to create a class in C++?
+   A) class
+   B) new
+   C) define
+   D) object
+
+Q123. Inline math formulas can be written between which delimiters?
+   A) \[ ... \]
+   B) # ... #
+   C) % ... %
+   D) $ ... $
+
+Q124. What is the range of Class C IP addresses?
+   A) 224-239
+   B) 128-191
+   C) 192-223
+   D) 1-127
+
+Q125. Which three modes of inheritance are described in the lab?
+   A) public, private and protected
+   B) single, double and triple
+   C) static, dynamic and virtual
+   D) base, derived and friend
+
+Q126. Which selector targets any element whose class attribute has the value "note"?
+   A) *note {}
+   B) note {}
+   C) .note {}
+   D) #note {}
+
+Q127. Which of the following is an invalid JavaScript variable name?
+   A) $price
+   B) 2price
+   C) var2
+   D) _name
+
+Q128. Which topology is built from point-to-point connections and can be either full or partial?
+   A) Ring
+   B) Mesh
+   C) Star
+   D) Bus
+
+Q129. What is the initial balance of myATM in the main function?
+   A) 0
+   B) 500.00
+   C) 1000.00
+   D) 1234
+
+Q130. Which element holds metadata, links to CSS files and other information that is not displayed directly on the page?
+   A) <body>
+   B) <head>
+   C) <section>
+   D) <footer>
+
+Q131. Which element displays text that has been removed from the document?
+   A) <small>
+   B) <mark>
+   C) <del>
+   D) <ins>
+
+Q132. In the ATM example, what is printed if the balance is $0 and the user tries to withdraw 500 with the correct PIN?
+   A) Invalid PIN.
+   B) Current balance: $0
+   C) Withdrawal successful! Remaining balance: $0
+   D) Insufficient balance.
+
+Q133. Which symbol separates the cells within a row of a LaTeX table?
+   A) ,
+   B) &
+   C) ;
+   D) #
+
+Q134. Which command produces bold text?
+   A) \underline{...}
+   B) \emph{...}
+   C) \textit{...}
+   D) \textbf{...}
+
+Q135. Which PIN is stored as correctPIN in the ATM class?
+   A) 1234
+   B) 1000
+   C) 123
+   D) 4321
+
+Q136. LaTeX is mainly used to:
+   A) Build mobile games
+   B) Create professional-looking documents
+   C) Design network topologies
+   D) Edit photographs
+
+Q137. Which example is given in the lab for operator overloading?
+   A) Using constructors
+   B) Using + to concatenate strings
+   C) Using virtual functions
+   D) Using header files
+
+Q138. Which quotation style allows string interpolation such as `Welcome, ${name}`?
+   A) Single quotes
+   B) Angle brackets
+   C) Double quotes
+   D) Backticks
+
+Q139. Which command includes an image in LaTeX?
+   A) \image{...}
+   B) \graphics{...}
+   C) \insertimage{...}
+   D) \includegraphics{...}
+
+Q140. In the Shape example, after setHeight(5) and setWidth(2), what does getHeight() return?
+   A) 2
+   B) 5
+   C) 10
+   D) 7
+
+Q141. Which real-world example does the lab give for something that should be private?
+   A) A person's Social Security Number, salary or age
+   B) A class's header
+   C) A company's public address
+   D) A person's name
+
+Q142. Which command creates an unnumbered section?
+   A) \unsection{Title}
+   B) \subsection{Title}
+   C) \section*{Title}
+   D) \section{Title}*
+
+Q143. Which command is used to write an integral?
+   A) \sum
+   B) \integral
+   C) \int
+   D) \lim
+
+Q144. For SEO purposes, how many <h1> elements should a page ideally contain?
+   A) At least six
+   B) None
+   C) One per paragraph
+   D) Only one
+
+Q145. Where do the \title, \author and \date commands go?
+   A) After \end{document}
+   B) Inside a table
+   C) In the preamble, before \begin{document}
+   D) Inside the abstract
+
+Q146. Which command begins each entry in an itemize or enumerate list?
+   A) \li
+   B) \item
+   C) \entry
+   D) \bullet
+
+Q147. In the CIA triad, which term means data is not modified or deleted by unauthorized parties?
+   A) Accountability
+   B) Integrity
+   C) Confidentiality
+   D) Availability
+
+Q148. The general sibling selector h1 ~ p {} applies to:
+   A) Only the very next <p> after the <h1>
+   B) <p> elements nested inside <h1>
+   C) Every <h1> that follows a <p>
+   D) All <p> siblings that follow an <h1>
+
+Q149. Which topology connects every computer to a single cable and is bi-directional?
+   A) Ring
+   B) Star
+   C) Bus
+   D) Mesh
+
+Q150. What is Cisco Packet Tracer?
+   A) A web browser
+   B) A network simulation and visualization tool
+   C) A text editor
+   D) A programming language
+
+Q151. What is a search engine?
+   A) A type of virus scanner
+   B) A hardware device for routing
+   C) A website through which users search the content available on the Internet
+   D) A program that repairs broken links
+
+Q152. Which are the three main components of a search engine?
+   A) Server, client and browser
+   B) Crawler, index and search algorithm
+   C) Header, body and footer
+   D) Router, switch and hub
+
+Q153. Which extension launches a local development server that reloads the browser automatically on every save?
+   A) Format Document
+   B) Live Server
+   C) Prettier
+   D) Code Runner
+
+Q154. Which companies are mentioned in the lab as building internal applications around JavaScript?
+   A) Tesla, Boeing and Nokia
+   B) Intel, AMD and Nvidia
+   C) Netflix, Walmart and PayPal
+   D) Oracle, SAP and IBM
+
+Q155. Which command is used for fractions in math mode?
+   A) \frac{a}{b}
+   B) \fract{a}{b}
+   C) \slash{a}{b}
+   D) \div{a}{b}
+
+Q156. Which table tag groups the footer content of a table?
+   A) <caption>
+   B) <tbody>
+   C) <tfoot>
+   D) <thead>
+
+Q157. Which private address range belongs to Class B?
+   A) 192.168.0.0 to 192.168.255.255
+   B) 128.0.0.0 to 128.255.255.255
+   C) 172.16.0.0 to 172.31.255.255
+   D) 10.0.0.0 to 10.255.255.255
+
+Q158. Encapsulation means:
+   A) Bundling data and the methods that operate on it into a single unit
+   B) Hiding the whole program from the user
+   C) Converting code to machine language
+   D) Creating multiple copies of an object
+
+Q159. In the to-do list program, which property is used in the for-loop condition to go through all tasks?
+   A) tasks.size
+   B) tasks.length
+   C) tasks.count
+   D) tasks.total
+
+Q160. Which environment is used to caption, label and reference images?
+   A) image
+   B) graphic
+   C) picture
+   D) figure
+
+Q161. Which overload of add() is called for calc.add(2.5, 3.5) in the Calculator example?
+   A) add(int a, int b, int c)
+   B) None, it causes an error
+   C) add(int a, int b)
+   D) add(double a, double b)
+
+Q162. The selector h1 + p {} targets:
+   A) The first <p> immediately after an <h1>
+   B) All <p> siblings of an <h1>
+   C) Every <p> nested inside an <h1>
+   D) The <h1> that precedes a <p>
+
+Q163. Which technologies does a MAN mainly use?
+   A) Bluetooth and NFC
+   B) Leased line and dial-up
+   C) Ethernet and Wi-Fi
+   D) FDDI, CDDI and ATM
+
+Q164. An ID selector is written by placing which symbol before the id value?
+   A) ~ (tilde)
+   B) * (asterisk)
+   C) . (full stop)
+   D) # (hash)
+
+Q165. When we define a variable of a class type in C++, this is called:
+   A) Overloading the class
+   B) Inheriting the class
+   C) Instantiating the class
+   D) Compiling the class
+
+Q166. Which menu option exits the ATM program?
+   A) 1
+   B) 0
+   C) 2
+   D) 3
+
+Q167. What is the role of the index in a search engine?
+   A) It stores URLs, links and keywords to make search results more effective
+   B) It displays advertisements
+   C) It scans websites automatically
+   D) It is the search box the user types in
+
+Q168. What is a protocol in networking?
+   A) A physical cable type
+   B) A security guard program
+   C) A kind of web browser
+   D) A set of rules that dictates how data is transmitted and received
+
+Q169. Which technologies are used in a WAN according to the lab?
+   A) Ethernet and Wi-Fi
+   B) Leased line and dial-up
+   C) FDDI and CDDI
+   D) Bluetooth and infrared
+
+Q170. How many primitive data types does JavaScript have, as listed in the lab?
+   A) 6
+   B) 7
+   C) 9
+   D) 5
+
+Q171. In the CIA triad, which term means preventing sensitive information from unauthorized access?
+   A) Confidentiality
+   B) Availability
+   C) Integrity
+   D) Authentication
+
+Q172. How is a single-line comment written in JavaScript?
+   A) // comment
+   B) /* comment
+   C) <!-- comment -->
+   D) # comment
+
+Q173. What can JavaScript be used to build, according to the lab?
+   A) Only operating-system drivers
+   B) Web and mobile apps, real-time networking apps, command-line tools and games
+   C) Only static web pages
+   D) Only browser animations
+
+Q174. If rollNo is a private data member of Student, what happens when main() executes A.rollNo = 1;?
+   A) rollNo becomes 0
+   B) Only a runtime warning
+   C) rollNo becomes 1
+   D) A compile-time error
+
+Q175. Function overloading happens when:
+   A) Several functions share the same name but have different parameters
+   B) A function has no parameters
+   C) A function calls itself
+   D) A derived class replaces a base class function
+
+Q176. What does CSS stand for?
+   A) Cascading Script Structure
+   B) Computer Styling System
+   C) Cascading Style Sheets
+   D) Creative Style Syntax
+
+Q177. Which class of IP addresses is reserved for experimental use and research?
+   A) Class C
+   B) Class E (240-255)
+   C) Class A
+   D) Class D
+
+Q178. Which tag attaches an external stylesheet to an HTML page?
+   A) <style src="styles.css">
+   B) <css href="styles.css">
+   C) <link rel="stylesheet" href="styles.css">
+   D) <script src="styles.css">
+
+Q179. In the to-do list program, which array method adds a new task to the end of the tasks array?
+   A) splice()
+   B) slice()
+   C) pop()
+   D) push()
+
+Q180. Which heading tag represents the least important heading?
+   A) <head>
+   B) <h1>
+   C) <h3>
+   D) <h6>
+
+Q181. Which selector applies its rules to every element on the page?
+   A) * {}
+   B) # {}
+   C) all {}
+   D) . {}
+
+Q182. What is \addcontentsline used for?
+   A) Adding a new page
+   B) Inserting a figure
+   C) Setting the font
+   D) Manually adding entries to the table of contents
+
+Q183. What does HTML stand for?
+   A) Hyperlink and Text Management Language
+   B) Hyper Text Markup Language
+   C) Hyper Transfer Markup Language
+   D) High Text Machine Language
+
+Q184. A valid JavaScript variable name must start with:
+   A) A hyphen (-)
+   B) A hash (#)
+   C) A letter, underscore (_) or dollar sign ($)
+   D) A digit
+
+Q185. What is the range of Class B IP addresses?
+   A) 192-223
+   B) 1-127
+   C) 240-255
+   D) 128-191
+
+Q186. Which environment is the default LaTeX method for creating tables?
+   A) table-grid
+   B) matrix
+   C) tabs
+   D) tabular
+
+Q187. Which command declares the type of document, such as article?
+   A) \documentclass{article}
+   B) \title{article}
+   C) \usepackage{article}
+   D) \begin{article}
+
+Q188. Which command is replaced by the number of a labelled figure?
+   A) \label{...}
+   B) \ref{...}
+   C) \caption{...}
+   D) \cite{...}
+
+Q189. How is a superscript written in LaTeX math mode?
+   A) a#b
+   B) a_b
+   C) a^b
+   D) a%b
+
+Q190. What is network topology?
+   A) The speed of the Internet connection
+   B) The length of a network cable
+   C) The arrangement of the various elements (links, nodes, etc.) of a network
+   D) The brand of the router
+
+Q191. Which environment creates a numbered (ordered) list?
+   A) orderedlist
+   B) enumerate
+   C) itemize
+   D) numbered
+
+Q192. In the lab analogy, if a class is the sketch (prototype) of a house, what is the house?
+   A) The data member
+   B) The function
+   C) The header file
+   D) The object
+
+Q193. Which command starts a new line in a LaTeX table?
+   A) \newrow
+   B) &&
+   C) \n
+   D) \\
+
+Q194. What happens if you write let score = 10; and then let score = 20; in the same scope?
+   A) SyntaxError: the identifier has already been declared
+   B) The value stays 10
+   C) The value silently becomes 20
+   D) TypeError: assignment to constant variable
+
+Q195. How is a comment written in CSS?
+   A) /* comment */
+   B) # comment
+   C) <!-- comment -->
+   D) // comment
+
+Q196. For a RADIO object, which of the following is an example of a data member (attribute)?
+   A) Switching it on
+   B) Volume setting
+   C) Setting the station
+   D) Tuning in a channel
+
+Q197. What is the default font size if none is specified in \documentclass?
+   A) 10pt
+   B) 11pt
+   C) 9pt
+   D) 12pt
+
+Q198. Which command creates a new numbered section called Introduction?
+   A) \chapter{Introduction}
+   B) \title{Introduction}
+   C) \item{Introduction}
+   D) \section{Introduction}
+
+Q199. Which version of Node.js does the lab ask you to download and install?
+   A) Canary
+   B) LTS
+   C) Nightly
+   D) Beta
+
+Q200. What does the &nbsp; HTML entity do?
+   A) Removes extra spaces from the text
+   B) Draws a horizontal line
+   C) Starts a new paragraph
+   D) Inserts a non-breaking space that keeps two words together
+
+======================================================================
+SECTION B: TRUE / FALSE (50)
+Write True or False.
+======================================================================
+
+Q201. The \part and \chapter commands are available in the article document class.
+   Answer: ______
+
+Q202. Runtime polymorphism is achieved through function overloading.
+   Answer: ______
+
+Q203. The DOM is tied exclusively to JavaScript and cannot be used with any other language.
+   Answer: ______
+
+Q204. A getter function should be declared private so that outside code cannot read the data member.
+   Answer: ______
+
+Q205. If two variables reference the same object, a change made through one variable is also visible through the other.
+   Answer: ______
+
+Q206. With protected inheritance, a base class member that was public becomes protected in the derived class.
+   Answer: ______
+
+Q207. In a bus topology, a failure of the backbone cable brings the whole topology down.
+   Answer: ______
+
+Q208. In the ATM example, validatePIN() is a private method, so main() cannot call it directly.
+   Answer: ______
+
+Q209. Using an <h2> on a page that has no <h1> is discouraged because it breaks the logical heading structure.
+   Answer: ______
+
+Q210. The <q> tag automatically creates quotation marks around text, while <blockquote> is meant for a quotation taken from another source.
+   Answer: ______
+
+Q211. Members of a C++ class are public by default.
+   Answer: ______
+
+Q212. Compile-time polymorphism is also known as late binding.
+   Answer: ______
+
+Q213. HTML tags are case sensitive, so <B> and <b> are treated as two different tags.
+   Answer: ______
+
+Q214. Instantiating a class allocates memory for the object.
+   Answer: ______
+
+Q215. JavaScript code can run only inside a web browser.
+   Answer: ______
+
+Q216. In JavaScript, null and undefined mean exactly the same thing.
+   Answer: ______
+
+Q217. In a ring topology, data can travel in only one direction.
+   Answer: ______
+
+Q218. In a UML class diagram, the top compartment is for the class name, the second for variables and the third for methods.
+   Answer: ______
+
+Q219. In the ATM example, both withdrawMoney() and checkBalance() validate the PIN before doing their work.
+   Answer: ______
+
+Q220. Many math mode commands require the amsmath package to be included.
+   Answer: ______
+
+Q221. A ping result showing 4 packets sent and 4 packets received indicates that the target is reachable.
+   Answer: ______
+
+Q222. An IP address is used both to identify a host or network and to help route data across the Internet.
+   Answer: ______
+
+Q223. The <ins> element defines a word inserted into the document and displays it underlined.
+   Answer: ______
+
+Q224. Abstraction in header files lets us use functions such as pow() without knowing the algorithm behind them.
+   Answer: ______
+
+Q225. In the viewport meta tag, initial-scale=1.0 is what makes the page width equal to the device screen width.
+   Answer: ______
+
+Q226. A <p> element automatically gets space (margin) before and after it, which helps lay out content neatly.
+   Answer: ______
+
+Q227. ECMAScript is a specification, while JavaScript is a programming language that conforms to that specification.
+   Answer: ______
+
+Q228. A MAN covers a smaller geographical area than a LAN.
+   Answer: ______
+
+Q229. The child selector li > a also matches <a> elements nested deeper inside an <li>, for example inside a <span> within the <li>.
+   Answer: ______
+
+Q230. Compared with a LAN, a WAN generally has lower transmission speed and higher maintenance cost.
+   Answer: ______
+
+Q231. The setter function returns the value of a private data member, while the getter function assigns a new value to it.
+   Answer: ______
+
+Q232. The statement let age; (without a value) is valid, but const age; is not.
+   Answer: ______
+
+Q233. In the Account example, main() reads the balance directly using currentAccount.balance.
+   Answer: ______
+
+Q234. A switch forwards data to the intended device by using IP addresses.
+   Answer: ______
+
+Q235. In LaTeX, a comment is created by placing // at the beginning of the line.
+   Answer: ______
+
+Q236. A variable declared with var inside a function can be accessed from outside that function.
+   Answer: ______
+
+Q237. The \maketitle command is placed in the body of the document, at the place where the title should be printed.
+   Answer: ______
+
+Q238. Variables declared with let are not hoisted in any way.
+   Answer: ______
+
+Q239. A const array can still have its elements modified, but the variable cannot be reassigned to a new array.
+   Answer: ______
+
+Q240. Inline expansion of a function reduces the overhead of function calling.
+   Answer: ______
+
+Q241. In a tabular environment with 3 columns, every row must contain exactly three & symbols.
+   Answer: ______
+
+Q242. An image file name used with \includegraphics should not contain white spaces or multiple dots.
+   Answer: ______
+
+Q243. The <b> tag adds more semantic importance to text than the <strong> tag does.
+   Answer: ______
+
+Q244. A derived class acquires the properties of the base class by modifying the base class.
+   Answer: ______
+
+Q245. The $$ ... $$ delimiter is the recommended way to display equations in LaTeX.
+   Answer: ______
+
+Q246. In a star topology, data sent from any node must pass through the central node to reach its destination.
+   Answer: ______
+
+Q247. In private inheritance, the public members of the base class become protected in the derived class.
+   Answer: ______
+
+Q248. Class D addresses (224-239) are reserved for experimental research purposes.
+   Answer: ______
+
+Q249. Overleaf automatically compiles the document twice, so references and labels work without manual recompiling.
+   Answer: ______
+
+Q250. Inside italicized text, \emph reverses its behaviour and makes the emphasized word upright.
+   Answer: ______
+
+======================================================================
+SECTION C: FILL IN THE BLANKS (25)
+======================================================================
+
+Q251. The ______ element defines a self-contained container for images, diagrams and code snippets, and <figcaption> gives it a caption.
+
+Q252. The two types of abstraction are data abstraction and ______ abstraction.
+
+Q253. To define a member function outside the class definition, the ______ operator (::) is used along with the class name.
+
+Q254. The ______ keyword in a base class method (such as makeSound() in Animal) enables function overriding in derived classes.
+
+Q255. By convention, the name of a user-defined class begins with a ______ letter.
+
+Q256. The ______ element is used to wrap navigation links.
+
+Q257. The ______ tag defines superscripted text, while <sub> defines subscripted text.
+
+Q258. When you run the ping command, it sends ICMP ______ requests to the target.
+
+Q259. In the vehicle example, Vehicle is the ______ class, while Bus, Car and Truck are derived classes.
+
+Q260. In the ATM example, the ______ initializes the account balance when the object myATM is created.
+
+Q261. The ______ environment places a brief overview of the main subject at the top of a LaTeX document.
+
+Q262. In the to-do list program, the ______ method of an array is used to remove an element at a given index.
+
+Q263. A ______ value is created by appending the letter n to the end of an integer and represents larger integers.
+
+Q264. Encapsulation is achieved through classes and ______ modifiers.
+
+Q265. In 2015 ECMA released ECMAScript 2015, which is also known as ES______.
+
+Q266. Use \______ inside the \date{} command so that the date updates automatically when the document is compiled.
+
+Q267. The ______ command, typed in Command Prompt, displays the IP configuration of all network interfaces on a Windows computer.
+
+Q268. The public data members of an object are accessed using the direct member access operator, written as ______.
+
+Q269. The Class C private address range begins at ______ and ends at 192.168.255.255.
+
+Q270. A variable that has been declared but not assigned any value holds the value ______.
+
+Q271. A ______ is a logical division of an IP network into smaller, more manageable networks.
+
+Q272. The command \______ generates the table of contents automatically.
+
+Q273. The <summary> element defines a visible heading for the ______ element.
+
+Q274. Unordered (bulleted) lists in LaTeX are created with the ______ environment.
+
+Q275. Both the getter and the setter function of a private data member must be defined as ______.
+
+======================================================================
+ANSWER KEY
+======================================================================
+
+Section A (MCQs):
+  Q1-B   Q2-A   Q3-D   Q4-D   Q5-C   Q6-C   Q7-A   Q8-C   Q9-D   Q10-B
+  Q11-C   Q12-A   Q13-A   Q14-B   Q15-A   Q16-D   Q17-D   Q18-C   Q19-A   Q20-B
+  Q21-C   Q22-D   Q23-B   Q24-C   Q25-B   Q26-C   Q27-A   Q28-D   Q29-D   Q30-C
+  Q31-B   Q32-B   Q33-A   Q34-A   Q35-D   Q36-C   Q37-A   Q38-C   Q39-A   Q40-B
+  Q41-C   Q42-B   Q43-D   Q44-D   Q45-A   Q46-D   Q47-D   Q48-C   Q49-A   Q50-C
+  Q51-B   Q52-A   Q53-A   Q54-D   Q55-C   Q56-A   Q57-C   Q58-B   Q59-D   Q60-C
+  Q61-D   Q62-A   Q63-D   Q64-B   Q65-C   Q66-C   Q67-B   Q68-A   Q69-A   Q70-B
+  Q71-C   Q72-A   Q73-B   Q74-D   Q75-B   Q76-D   Q77-D   Q78-A   Q79-D   Q80-A
+  Q81-A   Q82-B   Q83-D   Q84-A   Q85-A   Q86-C   Q87-B   Q88-C   Q89-A   Q90-C
+  Q91-A   Q92-C   Q93-A   Q94-A   Q95-B   Q96-D   Q97-B   Q98-D   Q99-B   Q100-C
+  Q101-C   Q102-D   Q103-C   Q104-B   Q105-A   Q106-C   Q107-A   Q108-A   Q109-B   Q110-D
+  Q111-B   Q112-C   Q113-D   Q114-B   Q115-B   Q116-C   Q117-B   Q118-A   Q119-C   Q120-A
+  Q121-C   Q122-A   Q123-D   Q124-C   Q125-A   Q126-C   Q127-B   Q128-B   Q129-C   Q130-B
+  Q131-C   Q132-D   Q133-B   Q134-D   Q135-A   Q136-B   Q137-B   Q138-D   Q139-D   Q140-B
+  Q141-A   Q142-C   Q143-C   Q144-D   Q145-C   Q146-B   Q147-B   Q148-D   Q149-C   Q150-B
+  Q151-C   Q152-B   Q153-B   Q154-C   Q155-A   Q156-C   Q157-C   Q158-A   Q159-B   Q160-D
+  Q161-D   Q162-A   Q163-D   Q164-D   Q165-C   Q166-D   Q167-A   Q168-D   Q169-B   Q170-B
+  Q171-A   Q172-A   Q173-B   Q174-D   Q175-A   Q176-C   Q177-B   Q178-C   Q179-D   Q180-D
+  Q181-A   Q182-D   Q183-B   Q184-C   Q185-D   Q186-D   Q187-A   Q188-B   Q189-C   Q190-C
+  Q191-B   Q192-D   Q193-D   Q194-A   Q195-A   Q196-B   Q197-A   Q198-D   Q199-B   Q200-D
+
+Section B (True/False):
+  Q201. False - \part and \chapter are only available in report and book classes.
+  Q202. False - Runtime polymorphism is achieved through function overriding (virtual functions).
+  Q203. False - The DOM is a cross-platform, language-independent interface; JavaScript is just a common client-side language used with it.
+  Q204. False - Getter and setter functions must be public to access private data.
+  Q205. True - Reference types use shared references.
+  Q206. True - x remains protected in child3.
+  Q207. True - Bus is a non-robust topology because it depends on the backbone.
+  Q208. True - Only the public methods withdrawMoney() and checkBalance() are accessible from main().
+  Q209. True - The lab says to avoid using <h2> if there is no <h1>.
+  Q210. True - Matches the tag descriptions in the lab.
+  Q211. False - By default, class members are private.
+  Q212. False - Late binding refers to runtime polymorphism.
+  Q213. False - HTML tags are not case sensitive; <b> means the same as <B>.
+  Q214. True - Defining a variable of a class type allocates memory.
+  Q215. False - It can also run in Node.js, which provides a runtime outside the browser.
+  Q216. False - undefined means declared but not assigned; null means the intentional absence of any object value.
+  Q217. False - Data can travel in one or both directions; each device has exactly two neighbours.
+  Q218. True - This is the compartment layout described in the lab.
+  Q219. True - Both call validatePIN() first.
+  Q220. True - Stated in the lab notes.
+  Q221. True - It shows the connection is established and the host is reachable.
+  Q222. True - These are its two main functions.
+  Q223. True - <ins> marks inserted text and underlines it.
+  Q224. True - This is the abstraction example given in the lab.
+  Q225. False - width=device-width does that; initial-scale sets the initial zoom level.
+  Q226. True - Paragraphs get default spacing around them.
+  Q227. True - This is the distinction made in the lab.
+  Q228. False - A MAN is larger than a LAN but smaller than a WAN.
+  Q229. False - A child selector matches only direct children; the descendant selector (li a) matches nested elements.
+  Q230. True - WAN: very low speed, very high maintenance and cost.
+  Q231. False - The roles are reversed: the setter sets the value, the getter returns it.
+  Q232. True - const must be initialized at declaration.
+  Q233. False - balance is private, so main() uses the public setDetails() function instead.
+  Q234. False - A switch uses MAC addresses.
+  Q235. False - LaTeX comments start with the % symbol.
+  Q236. False - var is function-scoped, so it is not accessible outside the function.
+  Q237. True - \title, \author and \date go in the preamble; \maketitle goes in the body.
+  Q238. False - They are technically hoisted but placed in the "temporal dead zone" until the declaration is reached.
+  Q239. True - const prevents reassignment, not mutation of objects/arrays.
+  Q240. True - The compiler copies the function body in place of the call.
+  Q241. False - There must always be one fewer & than the number of columns (two here).
+  Q242. True - This is stated in the lab notes.
+  Q243. False - <strong> adds semantic meaning; <b> only bolds the text.
+  Q244. False - It acquires them without modifying the base class.
+  Q245. False - $$ ... $$ is discouraged because it can give inconsistent spacing.
+  Q246. True - The central hub manages all data transmission.
+  Q247. False - They become private.
+  Q248. False - Class D is reserved for multicast; Class E (240-255) is experimental.
+  Q249. True - On a local computer you would have to compile twice yourself.
+  Q250. True - \emph depends on context.
+
+Section C (Fill in the blanks):
+  Q251. figure
+  Q252. control
+  Q253. scope resolution
+  Q254. virtual
+  Q255. capital
+  Q256. nav
+  Q257. sup
+  Q258. echo
+  Q259. base
+  Q260. constructor
+  Q261. abstract
+  Q262. splice
+  Q263. BigInt
+  Q264. access
+  Q265. 6
+  Q266. today
+  Q267. ipconfig
+  Q268. dot (.)
+  Q269. 192.168.0.0
+  Q270. undefined
+  Q271. subnet
+  Q272. tableofcontents
+  Q273. details
+  Q274. itemize
+  Q275. public
